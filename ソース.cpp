@@ -3,9 +3,9 @@
 #include<conio.h>
 #include<time.h>
 
-#define FIELD_WIDTH (30)
+#define FIELD_WIDTH (16)
 #define FIELD_HEIGHT (16)
-#define BOMB_COUNT (100)
+#define BOMB_COUNT (40)
 typedef struct {
 	bool bomb;
 	bool mine;
